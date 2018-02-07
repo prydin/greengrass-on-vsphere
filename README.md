@@ -53,7 +53,7 @@ The documentation will explain two ways to start the Greengrass core.
 ```gghelper creategroup -name test```  
 The creategroup command will generate a tar file containing the certificates and configuration
 for the Greengrass Core. This should be transferred onto the GGC system and unpacked. Note: the filename is based on the certificate so your filename will be different.  
-```tar xzf 5d7b82589d-setup.tar.gz -C /greengrass```
+```sudo tar xzf 5d7b82589d-setup.tar.gz -C /greengrass```
 1. The Greengrass core can be started with this configuration.  
 ```(cd /greengrass/ggc/core; sudo ./greengrassd start)```
 
